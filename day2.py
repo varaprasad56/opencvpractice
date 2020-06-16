@@ -1,7 +1,4 @@
 import cv2
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas
 cam = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('cvexperiment.avi', fourcc, 20, (640, 480))
